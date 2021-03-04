@@ -1,0 +1,16 @@
+.wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-template-areas:
+      ". a a ."
+      ". a a .";
+  }
+  .content {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+  }
+  h1 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+  }

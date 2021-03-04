@@ -1,0 +1,15 @@
+<div class="row wrapper">
+    <div class="content" *ngFor="let info of about">
+        <div class="pull-left">
+         
+        </div>
+      <div class="pull-right">
+        <img [src]="info.image" alt="" class="img-responsive image">
+          <h1>{{info.name}}</h1>
+          <h4>{{info.role}}</h4>
+          <p>Email Id: {{info.email}}</p>
+          <p>Address: {{info.address}}</p>
+      </div>
+
+    </div>
+</div>

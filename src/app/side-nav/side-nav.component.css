@@ -36,6 +36,11 @@ mat-toolbar a mat-icon {
   text-decoration: none;
   font-size:0.90em;
 }
+.mat-toolbar.mat-primary {
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
 /* 
 @media (min-width: 1024px) {
   .sidenav{
